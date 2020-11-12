@@ -1,0 +1,24 @@
+.illus {
+  height: 150px;
+  width: 150px;
+  border-radius: 12px;
+  background-color: white;
+  top: 0;
+  right: 60px;
+  opacity: 0.2;
+  transform: rotate(45deg);
+}
+
+.i1 {
+  right: 118px; 
+  top: 176px;
+}
+
+.i1 img , .i2 img {
+  width: 90%;
+}
+
+.i2 {
+  right: 235px; 
+  top: 60px;
+}
