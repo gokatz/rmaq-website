@@ -11,18 +11,21 @@ const Hero = () => {
       
       <div className="w-3/5 pl-6" style={{ zIndex: '2' }}>
         <h2 className="font-bold text-3xl">Welcome to Rmaq Trading Co.</h2>
+        
         <h5 className="text-2xl mt-5 pl-16">
           Rafia Mohammed Al Qarni Trading Est. is
           the go-to place for all your safety and
           operational equipment
-              </h5>
-        <div className="mt-16">
-          <Button> Contact Us </Button>
+        </h5>
+        
+        <div className="mt-16 text-lg">
+          <a href="/#contact-us">
+            <Button> Contact Us </Button>
+          </a>
         </div>
       </div>
 
       <HeroIllustration />
-    
     </div>
   )
 };

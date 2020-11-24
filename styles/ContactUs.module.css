@@ -1,3 +1,7 @@
 .contact-field {
   @apply p-2 border rounded shadow mb-3 block w-full;
 }
+
+.google-map-frame {
+  height: 450px;
+}

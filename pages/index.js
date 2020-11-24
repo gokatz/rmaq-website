@@ -8,6 +8,7 @@ import Hero from '../components/hero'
 import Product from '../components/product'
 import SectionHeader from '../components/section-header'
 import products from '../data/products';
+import Brands from '../components/brands'
 
 // import styles from '../styles/Home.module.css'
 
@@ -22,7 +23,6 @@ export default function Home() {
       <main>
         <div className="hero-section">
           <Header />
-
           <Hero />
         </div>
       </main>
@@ -70,9 +70,13 @@ export default function Home() {
         </div>
 
         <div className="text-center mt-8">
-          <Button className="bg-brand-blue text-white px-10"> View all our products </Button>
+          <a href="/products">
+            <Button className="bg-brand-blue text-white px-10"> View all our products </Button>
+          </a>
         </div>
       </div>
+
+      <Brands />
 
       <ContactUs />
 
