@@ -60,7 +60,7 @@ const ContactUs = () => {
           />
 
           <div className="w-full md:ml-12 mt-6 md:mt-0">
-            <form className="border rounded p-10">
+            <form className="border rounded px-5 py-10 md:px-10">
               <input placeholder="Your Name" className={styles['contact-field']} />
               <input placeholder="Mobile" className={styles['contact-field']} />
               <input placeholder="Email (Optional)" className={styles['contact-field']} />
