@@ -3,7 +3,7 @@ import HeroIllustration from "./hero-illustration";
 
 const Hero = () => {
   return (
-    <div className="md:flex justify-between container px-4 md:px-6 text-center md:text-right mx-auto items-center mt-10 relative">
+    <div className="md:flex justify-between container px-4 md:px-6 text-center md:text-right mx-auto items-center mt-10 relative overflow-hidden">
       
       <div className="hidden md:block w-2/5 self-end">
         <img src="./assets/images/hero-illustration.png" alt="Hero Illustration" />
@@ -25,7 +25,7 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* <HeroIllustration /> */}
+      <HeroIllustration />
     </div>
   )
 };

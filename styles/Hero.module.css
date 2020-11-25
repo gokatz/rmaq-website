@@ -3,15 +3,15 @@
   width: 150px;
   border-radius: 12px;
   background-color: white;
-  top: 0;
+  top: 30px;
   right: 60px;
   opacity: 0.2;
   transform: rotate(45deg);
 }
 
 .i1 {
-  right: 118px; 
-  top: 176px;
+  right: 123px; 
+  top: 200px;
 }
 
 .i1 img , .i2 img {
@@ -19,6 +19,6 @@
 }
 
 .i2 {
-  right: 235px; 
-  top: 60px;
+  right: 240px; 
+  top: 81px;
 }
