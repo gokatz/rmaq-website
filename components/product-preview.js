@@ -11,7 +11,7 @@ const ProductPreview = () => {
 
       <div className="container mx-auto text-center">
 
-        <div className="">
+        <div className="flex flex-wrap justify-around">
           {
             products.map((product, index) => {
               return (
