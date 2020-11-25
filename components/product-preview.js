@@ -1,0 +1,34 @@
+import Product from './product'
+import SectionHeader from './section-header'
+import products from '../data/products';
+import Button from './button'
+
+
+const ProductPreview = () => {
+  return (
+    <>
+      <SectionHeader title="Our Products" />
+
+      <div className="container mx-auto text-center">
+
+        <div className="">
+          {
+            products.map((product, index) => {
+              return (
+                <Product product={product} key={index} />
+              );
+            })
+          }
+        </div>
+
+        <div className="text-center mt-8">
+          <a href="/products">
+            <Button className="bg-brand-blue text-white px-10"> View all our products </Button>
+          </a>
+        </div>
+      </div>
+    </>
+  )
+};
+
+export default ProductPreview;

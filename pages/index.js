@@ -1,15 +1,12 @@
 import Head from 'next/head'
-import Button from '../components/button'
 import ContactUs from '../components/contact-us'
 import FeatureItem from '../components/feature-item'
 import Footer from '../components/footer'
 import Header from '../components/header'
 import Hero from '../components/hero'
-import Product from '../components/product'
-import SectionHeader from '../components/section-header'
-import products from '../data/products';
 import Brands from '../components/brands'
 import AboutUs from '../components/aboutus'
+import ProductPreview from '../components/product-preview'
 
 // import styles from '../styles/Home.module.css'
 
@@ -40,26 +37,7 @@ export default function Home() {
 
       <AboutUs />
 
-      <SectionHeader title="Our Products" />
-
-      <div className="container mx-auto text-center">
-      
-        <div className="">
-          {
-            products.map((product, index) => {
-              return (
-                <Product product={product} key={index} />
-              );
-            })
-          }
-        </div>
-
-        <div className="text-center mt-8">
-          <a href="/products">
-            <Button className="bg-brand-blue text-white px-10"> View all our products </Button>
-          </a>
-        </div>
-      </div>
+      <ProductPreview />
 
       <Brands />
 
