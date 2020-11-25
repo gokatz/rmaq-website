@@ -22,6 +22,7 @@ export default function Home() {
       </main>
 
       <div className="container mx-auto text-center my-10">
+        <div className="flex flex-wrap justify-around">
         {
           productList.map((product, index) => {
             return (
@@ -29,6 +30,7 @@ export default function Home() {
             );
           })
         }
+        </div>
       </div>
 
       <Footer />
