@@ -23,15 +23,8 @@ a {
   box-sizing: border-box;
 }
 
-nav li {
-  @apply inline-block;
-  @apply p-2;
-  @apply cursor-pointer;
-  @apply mx-2;
-}
-
 nav li:hover {
-  @apply text-brand-red;
+  @apply underline;
 }
 
 .hero-section {
