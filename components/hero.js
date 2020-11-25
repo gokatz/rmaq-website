@@ -26,6 +26,10 @@ const Hero = () => {
       </div>
 
       <HeroIllustration />
+
+      <div className="md:hidden text-center">
+        <img src="./assets/images/hero-illustration.png" alt="Hero Illustration" className="inline-block w-2/3" />
+      </div>
     </div>
   )
 };
