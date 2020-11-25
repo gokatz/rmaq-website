@@ -4,7 +4,7 @@ import brands from '../data/brands';
 const Brands = () => {
   return (
     <>
-      <SectionHeader title="Brands Trust Us" id="brand" />
+      <SectionHeader title="Brands Trust Us" id="brands" />
 
       <div className="container mx-auto mb-16">
         <div className="text-lg text-center -mt-5 mb-16">

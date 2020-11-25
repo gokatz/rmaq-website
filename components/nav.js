@@ -10,6 +10,9 @@ const Nav = () => {
     title: 'Products',
     href: '/products'
   }, {
+    title: 'Brands',
+    href: '/#brands'
+  }, {
     title: 'Contact Us',
     href: '/#contact-us'
   }];
