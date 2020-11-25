@@ -30,7 +30,7 @@ const Header = () => {
 
       {
         canShowMobileMenu && 
-        <div className="lg:hidden -m-3">
+        <div className="lg:hidden -my-3">
           <Nav />
         </div>
       }

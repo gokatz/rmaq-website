@@ -5,7 +5,7 @@ import SectionHeader from './section-header';
 const ContactUs = () => {
 
   let googleMapFrame = 'https://www.google.com/maps/embed/v1/place?q=place_id:ChIJYTN9T-plUjoRM9RjaAunYW4&key=AIzaSyCOgOXJR3nVkPdL10CEDejBLEtCx9erqwc';
-  googleMapFrame = ''
+  // googleMapFrame = ''
 
   return (
     <>
@@ -54,12 +54,12 @@ const ContactUs = () => {
         <div className="flex flex-col md:flex-row">
           <iframe 
             frameBorder="0" 
-            className={`flex-shrink-0 flex-grow-0 w-full md:w-1/2  md:mr-12 border-none ${styles['google-map-frame']}`}
+            className={`flex-shrink-0 flex-grow-0 w-full md:w-1/2 lg:mr-12 border-none ${styles['google-map-frame']}`}
             src={googleMapFrame} 
             allowFullScreen
           />
 
-          <div className="w-full md:ml-12 mt-6 md:mt-0">
+          <div className="w-full lg:ml-12 mt-6 md:mt-0">
             <form className="border rounded px-5 py-10 md:px-10">
               <input placeholder="Your Name" className={styles['contact-field']} />
               <input placeholder="Mobile" className={styles['contact-field']} />
