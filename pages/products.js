@@ -6,7 +6,7 @@ import products from '../data/products';
 
 export default function Home() {
 
-  let productList = [...products, ...products, ...products];
+  let productList = [...products];
 
   return (
     <div>

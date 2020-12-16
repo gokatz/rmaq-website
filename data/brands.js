@@ -1,38 +1,38 @@
 const brands = [{
-  name: 'Honeywell',
+  name: 'honeywell',
   thumbnail: './assets/images/brands/honeywell.png'
 }, {
-  name: 'Honeywell',
+  name: 'ansel',
   thumbnail: './assets/images/brands/ansel.png'
 }, {
-  name: 'Honeywell',
+  name: 'deltaplus',
     thumbnail: './assets/images/brands/deltaplus2.png'
 }, {
-  name: 'Honeywell',
+  name: '3m',
   thumbnail: './assets/images/brands/3m1.png'
 }, {
-  name: 'Honeywell',
+  name: 'dickies',
   thumbnail: './assets/images/brands/dickies.png'
 },
 {
-  name: 'Honeywell',
+  name: 'drager',
   thumbnail: './assets/images/brands/drager.png'
 }, {
-  name: 'Honeywell',
+  name: 'dupont',
   thumbnail: './assets/images/brands/dupont.png'
 },
 {
-  name: 'Honeywell',
+  name: 'msa',
   thumbnail: './assets/images/brands/msa.png'
 }, {
-  name: 'Honeywell',
+  name: 'timerland',
   thumbnail: './assets/images/brands/timber2.png'
 },
 {
-  name: 'Honeywell',
+  name: 'uvex',
   thumbnail: './assets/images/brands/uvex.png'
 }, {
-  name: 'Honeywell',
+  name: 'vx2',
   thumbnail: './assets/images/brands/vaultex2.png'
 }
 ];
