@@ -8,7 +8,7 @@ const Footer = () => {
               <a href="/products" className="underline"> View our product catalogue </a>
             </div>
             <div>
-              Site Created and maintained by Panai Technologies
+              Site Created and maintained by Crosa Apps Ltd.
                 <br />
                 © 2020 | Rmaq Co.
               </div>

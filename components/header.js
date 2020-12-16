@@ -12,7 +12,7 @@ const Header = () => {
       </div> */}
 
       <div className="container px-6 xl:px-0 mx-auto flex justify-between py-6 items-center">
-        <div className="flex items-center text-xs md:text-lg"> 
+        <div className="flex items-center text-xs md:text-xl font-bold"> 
           <div className="flex items-center justify-between">
             <img src="./assets/images/logo-bg.png" className="h-10 md:h-20 mr-3 md:mr-6" />
             <span> Rafia Mohammed Al Qarni <br />Trading Est. </span>

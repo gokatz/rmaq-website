@@ -4,8 +4,8 @@ import SectionHeader from './section-header';
 
 const ContactUs = () => {
 
-  let googleMapFrame = 'https://www.google.com/maps/embed/v1/place?q=place_id:ChIJYTN9T-plUjoRM9RjaAunYW4&key=AIzaSyCOgOXJR3nVkPdL10CEDejBLEtCx9erqwc';
-  // googleMapFrame = ''
+  // use https://developers.google.com/maps/documentation/embed/map-generator
+  let googleMapFrame = 'https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ96l_0NP7ST4RhkcUEXKPpcU&key=AIzaSyCOgOXJR3nVkPdL10CEDejBLEtCx9erqwc';
 
   return (
     <>
@@ -13,7 +13,7 @@ const ContactUs = () => {
 
       <div className="container mx-auto mb-16">
 
-        <div className="text-lg text-center -mt-5 mb-16">
+        <div className="text-lg text-center -mt-5 mb-16 px-5">
           Reach out to us! We’ll thrive hard to meet your needs!
         </div>
 
@@ -23,9 +23,9 @@ const ContactUs = () => {
               Address
             </div>
             <div className="mt-4">
-              123, DWT Building <br/>
-              ABC Street, Riyadh, <br/>
-              Saudi Arabia - 11564
+              P.O. Box 11022, Dammam <br />
+              Kingdom of Saudi Arabia <br />
+              Zip Code:  31453
             </div>
           </div>
 
@@ -34,8 +34,7 @@ const ContactUs = () => {
               Email Address
             </div>
             <div className="mt-4">
-              contactus@mraq.com <br />
-              sales@mraq.com
+              tradingrmaq@gmail.com
             </div>
           </div>
 
@@ -44,8 +43,8 @@ const ContactUs = () => {
               Phone
             </div>
             <div className="mt-4">
-              +966 - 123456789 <br />
-              +966 - 98765432110
+              Tel & Fax: +966 013 832 1790 <br />
+              Mob: +966 509 059 407
             </div>
           </div>
         </div>

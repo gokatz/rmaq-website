@@ -12,10 +12,17 @@ const Hero = () => {
       <div className="md:w-3/5 md:pl-6" style={{ zIndex: '2' }}>
         <h2 className="font-bold text-2xl lg:text-3xl">Welcome to Rmaq Trading Co.</h2>
         
-        <h5 className="text-xl lg:text-2xl mt-5 md:pl-2 lg:pl-16">
-          Rafia Mohammed Al Qarni Trading Est. is
-          the go-to place for all your safety and
-          operational equipment
+        <h5 className="text-xl lg:text-xl mt-5 md:pl-2 lg:pl-16">
+          Rafia Mohammed Al Qarni Trading Est. is the go-to place for all your safety and operational equipment. 
+          
+          <p className="mt-3">
+            We provide personal protective equipments, fire and safety equipments, industrial safety equipments 
+            and more from wide range of high standard products.
+          </p>
+
+          <p className="mt-3">
+            Safety is our <b>passion and profession!</b>
+          </p>
         </h5>
         
         <div className="py-8 md:pt-0 md:mt-16 lg:text-lg">

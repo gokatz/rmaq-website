@@ -14,11 +14,16 @@
   top: 200px;
 }
 
-.i1 img , .i2 img {
+.i1 img , .i2 img, .i3 img {
   width: 90%;
 }
 
 .i2 {
   right: 240px; 
   top: 81px;
+}
+
+.i3 {
+  right: 299px; 
+  top: 253px;
 }

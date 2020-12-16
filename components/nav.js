@@ -23,7 +23,7 @@ const Nav = () => {
         {
           navLinks.map((link) => {
             return (
-              <li className="mx-2 p-2 py-3 lg:inline-block cursor-pointer">
+              <li className="mx-2 p-2 py-3 lg:inline-block cursor-pointer" key={link.title}>
                 <a href={link.href}> {link.title} </a>
               </li>
             );
