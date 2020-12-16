@@ -12,7 +12,7 @@ export default function Home() {
     <div>
       <Head>  
         <title>Product Catalogue | Rafia Mohammed Al Qarni Trading Company</title>
-        <link rel="icon" href="/assets/images/sample-product.jpg" />
+        <link rel="icon" href="/assets/images/logo-bg.png" />
       </Head>
 
       <main>
