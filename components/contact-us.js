@@ -59,13 +59,13 @@ const ContactUs = () => {
           />
 
           <div className="w-full lg:ml-12 mt-6 md:mt-0">
-            <form className="border rounded px-5 py-10 md:px-10">
+            <form className="border rounded px-5 py-10 md:px-10" name="contact" netlify>
               <input placeholder="Your Name" className={styles['contact-field']} />
               <input placeholder="Mobile" className={styles['contact-field']} />
               <input placeholder="Email (Optional)" className={styles['contact-field']} />
               <textarea placeholder="Your Message (Optional)" rows="5" className={styles['contact-field']} />
               <div className="text-center mt-10">
-                <Button className="bg-brand-blue text-white"> Send Message </Button>
+                <Button className="bg-brand-blue text-white" type="submit"> Send Message </Button>
               </div>
             </form>
           </div>
