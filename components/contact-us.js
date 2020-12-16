@@ -60,8 +60,8 @@ const ContactUs = () => {
 
           <div className="w-full lg:ml-12 mt-6 md:mt-0">
             <form className="border rounded px-5 py-10 md:px-10" name="contact" method="POST" data-netlify="true">
-              <input name="name" placeholder="Your Name" className={styles['contact-field']} />
-              <input name="mobile" placeholder="Mobile" className={styles['contact-field']} />
+              <input name="name" placeholder="Your Name" className={styles['contact-field']} required />
+              <input name="mobile" placeholder="Mobile" className={styles['contact-field']} required />
               <input name="email" placeholder="Email (Optional)" className={styles['contact-field']} />
               <textarea name="message" placeholder="Your Message (Optional)" rows="5" className={styles['contact-field']} />
               <div className="text-center mt-10">
