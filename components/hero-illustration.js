@@ -1,23 +1,38 @@
 import styles from '../styles/Hero.module.css';
 
 const HeroIllustration = () => {
+
+  let illustrations = [{
+    imageUrl: './assets/images/p1.png',
+    imageClass: '',
+    className: ''
+  }, {
+    imageUrl: './assets/images/p2.png',
+    imageClass: '',
+    className: styles.i1
+  }, {
+    imageUrl: './assets/images/p3.png',
+    imageClass: '',
+    className: styles.i2
+  }, {
+    imageUrl: './assets/images/p4.png',
+    imageClass: 'mt-5',
+    className: styles.i3
+  }];
+
   return (
     <div className="hidden lg:block">
-      <div className={`absolute ${styles.illus}`}>
-        <img src="./assets/images/p1.png" width="w-3/4" className="transform -rotate-45" />
-      </div>
+      {
+        illustrations.map((illustration) => {
+          let { className, imageClass, imageUrl } = illustration;
 
-      <div className={`absolute ${styles.illus} ${styles.i1}`}>
-        <img src="./assets/images/p2.png" width="w-3/4" className="transform -rotate-45" />
-      </div>
-
-      <div className={`absolute ${styles.illus} ${styles.i2}`}>
-        <img src="./assets/images/p3.png" width="w-3/4" className="transform -rotate-45" />
-      </div>
-
-      <div className={`absolute ${styles.illus} ${styles.i3}`}>
-        <img src="./assets/images/p4.png" width="w-3/4 mt-5" className="transform -rotate-45" />
-      </div>
+          return (
+            <div className={`absolute ${styles.illus} ${className}`}>
+              <img src={imageUrl} width={`w-3/4 ${imageClass}`} className="transform -rotate-45" />
+            </div>
+          );
+        })
+      }
     </div>
   )
 };
