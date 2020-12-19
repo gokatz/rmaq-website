@@ -2,6 +2,8 @@
   @apply p-2 border rounded shadow mb-3 block w-full;
 }
 
-.google-map-frame {
-  height: 450px;
+@media (max-width: 640px) {
+  .google-map-frame {
+    height: 400px;
+  }
 }

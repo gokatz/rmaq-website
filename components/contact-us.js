@@ -6,6 +6,9 @@ const ContactUs = () => {
 
   // use https://developers.google.com/maps/documentation/embed/map-generator
   let googleMapFrame = 'https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ96l_0NP7ST4RhkcUEXKPpcU&key=AIzaSyCOgOXJR3nVkPdL10CEDejBLEtCx9erqwc';
+  let email = 'tradingrmaq@gmail.com';
+  let primaryPhone = '+966 013 832 1790';
+  let secPhone =' +966 509 059 407';
 
   return (
     <>
@@ -13,47 +16,35 @@ const ContactUs = () => {
 
       <div className="container mx-auto mb-16">
 
-        <div className="text-lg text-center -mt-5 mb-16 px-5">
+        <div className="text-lg text-center -mt-5 mb-12 px-5">
           Reach out to us! We’ll thrive hard to meet your needs!
         </div>
 
-        <div className="flex flex-col md:flex-row text-center justify-between w-full md:w-3/5 mx-auto mb-16">
-          <div>
-            <div className="font-semibold"> 
-              Address
-            </div>
-            <div className="mt-4">
-              P.O. Box 11022, Dammam <br />
-              Kingdom of Saudi Arabia <br />
-              Zip Code:  31453
-            </div>
-          </div>
+        <div className="flex flex-col md:flex-row justify-around w-full mx-auto mb-16">
 
-          <div>
-            <div className="font-semibold mt-10 md:mt-0">
-              Email Address
-            </div>
-            <div className="mt-4">
-              tradingrmaq@gmail.com
-            </div>
-          </div>
+          <ContactCard iconUrl="./assets/icons/map.svg">
+            P.O. Box 11022, Dammam <br />
+            Kingdom of Saudi Arabia <br />
+            Zip Code:  31453
+          </ContactCard>
 
-          <div>
-            <div className="font-semibold mt-10 md:mt-0">
-              Phone
+          <ContactCard iconUrl="./assets/icons/email.svg">
+            <a href={`mailto:${email}`} className="underline"> {email} </a>
+          </ContactCard>
+
+          <ContactCard iconUrl="./assets/icons/phone.svg">
+            <div>
+              Tel & Fax: <a href={`tel:${primaryPhone}`} className="underline"> {primaryPhone} </a>  <br />
+              Mob: <a href={`tel:${secPhone}`} className="underline"> {secPhone} </a>
             </div>
-            <div className="mt-4">
-              Tel & Fax: +966 013 832 1790 <br />
-              Mob: +966 509 059 407
-            </div>
-          </div>
+          </ContactCard>
         </div>
 
 
         <div className="flex flex-col md:flex-row">
           <iframe 
             frameBorder="0" 
-            className={`flex-shrink-0 flex-grow-0 w-full md:w-1/2 lg:mr-12 border-none ${styles['google-map-frame']}`}
+            className={`flex-shrink-0 flex-grow-0 w-full md:w-1/2 lg:mr-12 border rounded shadow ${styles['google-map-frame']}`}
             src={googleMapFrame} 
             allowFullScreen
           />
@@ -76,3 +67,19 @@ const ContactUs = () => {
 };
 
 export default ContactUs;
+
+const ContactCard = (props) => {
+
+  let { iconUrl, children } = props;
+
+  return (
+    <div className="flex shadow rounded-md p-8 m-3">
+      <div className="mr-6 flex items-center flex-shrink-0">
+        <img src={iconUrl} className="h-10 max-h-full" />
+      </div>
+      <div className="flex items-center">
+        {children}
+      </div>
+    </div>
+  )
+}
