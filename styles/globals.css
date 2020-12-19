@@ -45,3 +45,13 @@ header.section-header {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
 }
+
+.mobile-illus-image {
+  width: 85%;
+}
+
+@media (min-width: 450px) {
+  .mobile-illus-image {
+    width: 60%;
+  }
+}
