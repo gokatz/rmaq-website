@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 html,
 body {
@@ -54,4 +55,8 @@ header.section-header {
   .mobile-illus-image {
     width: 60%;
   }
+}
+
+.font-hero {
+  font-family: 'Righteous', cursive;
 }

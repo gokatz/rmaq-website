@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Nav from "./nav";
+import Link from 'next/link';
 
 const Header = () => {
 
@@ -13,10 +14,12 @@ const Header = () => {
 
       <div className="container px-6 xl:px-0 mx-auto flex justify-between py-6 items-center">
         <div className="flex items-center text-xs md:text-xl font-bold"> 
-          <div className="flex items-center justify-between">
-            <img src="./assets/images/logo-bg.png" className="h-10 md:h-20 mr-3 md:mr-6" />
-            <span> Rafia Mohammed Al Qarni <br />Trading Est. </span>
-          </div>
+          <Link href="/">
+            <div className="flex items-center justify-between cursor-pointer">
+              <img src="./assets/images/logo-bg.png" className="h-10 md:h-20 mr-3 md:mr-6" />
+              <span className="font-hero tracking-wider"> Rafia Mohammed Al Qarni <br />Trading Est. </span>
+            </div>
+          </Link>
         </div>
         
         <div className="hidden lg:block">

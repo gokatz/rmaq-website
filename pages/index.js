@@ -26,7 +26,7 @@ export default function Home() {
       </main>
 
       <section className="container mx-auto" id="about-us">
-        <h3 className="text-center text-2xl uppercase font-semibold my-8"> Our Promises </h3>
+        <h3 className="text-center text-2xl uppercase font-semibold my-10 font-hero"> Our Promises </h3>
 
         <div className="flex justify-between flex-wrap md:flex-no-wrap">
           <FeatureItem 
