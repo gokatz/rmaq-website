@@ -20,9 +20,9 @@ const Hero = () => {
             and more from wide range of high standard products.
           </p>
 
-          <p className="mt-3">
+          {/* <p className="mt-3">
             Safety is our <b>passion and profession!</b>
-          </p>
+          </p> */}
         </h5>
         
         <div className="py-8 md:pt-0 md:mt-16 lg:text-lg">
@@ -34,8 +34,8 @@ const Hero = () => {
 
       <HeroIllustration />
 
-      <div className="md:hidden text-center">
-        <img src="./assets/images/hero-illustration.png" alt="Hero Illustration" className="inline-block w-2/3" />
+      <div className="md:hidden text-center mt-4">
+        <img src="./assets/images/hero-illustration.png" alt="Hero Illustration" className="inline-block w-11/12" />
       </div>
     </div>
   )
