@@ -5,6 +5,9 @@ import Button from './button'
 
 
 const ProductPreview = () => {
+
+  let productList = products.slice(0, 12);
+
   return (
     <>
       <SectionHeader title="Our Products" />
@@ -13,7 +16,7 @@ const ProductPreview = () => {
 
         <div className="flex flex-wrap justify-around">
           {
-            products.map((product, index) => {
+            productList.map((product, index) => {
               return (
                 <Product product={product} key={index} />
               );
