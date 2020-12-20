@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Footer from '../components/footer'
 import Header from '../components/header'
 import Product from '../components/product';
+import ToTop from '../components/to-top';
 import products from '../data/products';
 
 export default function Home() {
@@ -35,6 +36,7 @@ export default function Home() {
 
       <Footer />
       
+      <ToTop />
     </div>
   )
 }

@@ -7,6 +7,7 @@ import Brands from '../components/brands'
 import AboutUs from '../components/aboutus'
 import ProductPreview from '../components/product-preview'
 import Promises from '../components/promises'
+import ToTop from '../components/to-top'
 
 // import styles from '../styles/Home.module.css'
 
@@ -36,6 +37,9 @@ export default function Home() {
       <ContactUs />
 
       <Footer />
+
+      <ToTop />
+
     </div>
   )
 }
