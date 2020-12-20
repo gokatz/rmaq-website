@@ -9,12 +9,16 @@ const Footer = () => {
             </div>
             <div>
               Site Created and maintained by Crosa Apps Ltd.
-                <br />
-                © 2020 | Rmaq Co.
+              <br />
+              © 2020 | Rmaq Co.
               </div>
           </div>
 
-          <img src="./assets/images/logo-full.png" style={{ width: '300px' }} className="p-2 bg-white rounded-lg w-full md:w-auto" />
+          <img 
+            src="./assets/images/logo-full.png" 
+            style={{ width: '300px', maxHeight: '150px' }} 
+            className="p-2 bg-white rounded-lg w-full md:w-auto" 
+          />
         </div>
       </footer>
     </div>
