@@ -12,7 +12,7 @@ const AboutUs = () => {
         </div>
 
         <div className="w-4/5 md:w-3/5">
-          <div className="font-semibold mb-5"> Safety is our first concern! </div>
+          <div className="font-semibold mb-5 text-xl"> Safety is our first concern! </div>
           <div className="mb-5">
             We, Rafia Mohammed Al Qarni Trading Company, is an saudi arabia (KSA) based leading global safety and operational gear dealers. We thrive to deliver the most safe and secure equipment to all our clients.
           </div>

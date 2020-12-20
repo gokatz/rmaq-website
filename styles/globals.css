@@ -60,3 +60,11 @@ header.section-header {
 .font-hero {
   font-family: 'Righteous', cursive;
 }
+
+.product img {
+  transition: transform .2s;
+}
+
+.product img:hover {
+  transform: scale(1.1);
+}
