@@ -27,7 +27,7 @@ const HeroIllustration = () => {
           let { className, imageClass, imageUrl } = illustration;
 
           return (
-            <div className={`absolute ${styles.illus} ${className}`}>
+            <div className={`absolute ${styles.illus} ${className}`} key={imageUrl}>
               <img src={imageUrl} width={`w-3/4 ${imageClass}`} className="transform -rotate-45" />
             </div>
           );
