@@ -8,7 +8,10 @@ let products = [{
   name: 'Safety Shoes',
   thumbnail: './assets/images/products/3.jpg'
 }, {
-  name: 'FRC coverall',
+  name: 'Safety Boots',
+  thumbnail: './assets/images/products/3a.jpg'
+}, {
+  name: 'Coverall Suit',
   thumbnail: './assets/images/products/4.jpg'
 }, {
   name: 'Safety Gloves',
@@ -19,10 +22,12 @@ let products = [{
 }, {
   name: 'Face Shield',
   thumbnail: './assets/images/products/7.jpg'
-}, {
-  name: 'Fire Extinguisher',
-  thumbnail: './assets/images/products/8.jpeg'
-}, {
+}, 
+// {
+//   name: 'Fire Extinguisher',
+//   thumbnail: './assets/images/products/8.jpeg'
+// }, 
+{
   name: 'Full Body Harness',
   thumbnail: './assets/images/products/9.jpg'
 }, {
