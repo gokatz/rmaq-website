@@ -9,7 +9,7 @@ const Hero = () => {
         <img src="./assets/images/hero-illustration.png" alt="Hero Illustration" />
       </div>
       
-      <div className="lg:w-3/5 lg:pl-6" style={{ zIndex: '2' }}>
+      <div className="lg:w-3/5 lg:pl-6 hidden" style={{ zIndex: '2' }}>
         <h2 className="font-bold text-2xl lg:text-3xl font-hero">Welcome to Rmaq Trading Co.</h2>
         
         <h5 className="text-xl lg:text-xl mt-10 md:pl-2 lg:pl-16">

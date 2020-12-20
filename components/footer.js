@@ -14,7 +14,7 @@ const Footer = () => {
               </div>
           </div>
 
-          <img src="./assets/images/logo-full.png" style={{ width: '300px' }} className="p-2 bg-white rounded-lg w-full md:w-auto" />
+          <img src="./assets/images/logo-full.png" style={{ width: '300px' }} className="p-2 bg-white rounded-lg w-full md:w-auto h-auto" />
         </div>
       </footer>
     </div>
