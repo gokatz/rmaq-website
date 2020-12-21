@@ -38,8 +38,11 @@ let products = [{
   name: 'Safety Barricades',
   thumbnail: './assets/images/products/11.jpg'
 }, {
-  name: 'Signboards & Stickers',
+  name: 'Signage & Stickers',
   thumbnail: './assets/images/products/12.jpg'
+}, {
+  name: 'Traffic Signboards',
+  thumbnail: './assets/images/products/12a.jpg'
 }, {
   name: 'Welding Shield',
   thumbnail: './assets/images/products/13.jpg'
