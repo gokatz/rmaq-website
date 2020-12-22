@@ -8,7 +8,8 @@ const ContactUs = () => {
   let googleMapFrame = 'https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ96l_0NP7ST4RhkcUEXKPpcU&key=AIzaSyCOgOXJR3nVkPdL10CEDejBLEtCx9erqwc';
   let email = 'tradingrmaq@gmail.com';
   let primaryPhone = '+966 013 832 1790';
-  let secPhone =' +966 509 059 407';
+  let secPhone = '+966 509 059 407';
+  let secPhone1 = '+966 54 157 1490';
 
   return (
     <>
@@ -34,8 +35,9 @@ const ContactUs = () => {
 
           <ContactCard iconUrl="./assets/icons/phone.svg">
             <div>
+              Mob: <a href={`tel:${secPhone1}`} className="underline"> {secPhone1} </a> <br /><br />
+              Mob: <a href={`tel:${secPhone}`} className="underline"> {secPhone} </a> <br />
               Tel & Fax: <a href={`tel:${primaryPhone}`} className="underline"> {primaryPhone} </a>  <br />
-              Mob: <a href={`tel:${secPhone}`} className="underline"> {secPhone} </a>
             </div>
           </ContactCard>
         </div>

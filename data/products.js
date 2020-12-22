@@ -8,8 +8,8 @@ let products = [{
   name: 'Safety Shoes',
   thumbnail: './assets/images/products/3.jpg'
 }, {
-  name: 'Safety Boots',
-  thumbnail: './assets/images/products/3a.jpg'
+  name: 'Safety Vest',
+  thumbnail: './assets/images/products/10.jpg'
 }, {
   name: 'Coverall Suit',
   thumbnail: './assets/images/products/4.jpg'
@@ -30,10 +30,11 @@ let products = [{
 {
   name: 'Full Body Harness',
   thumbnail: './assets/images/products/9.jpg'
-}, {
-  name: 'Safety Vest',
-  thumbnail: './assets/images/products/10.jpg'
-},
+}, 
+  {
+    name: 'Safety Boots',
+    thumbnail: './assets/images/products/3a.jpg'
+  },
 {
   name: 'Safety Barricades',
   thumbnail: './assets/images/products/11.jpg'

@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className="lg:flex justify-between container px-4 md:px-6 pb-10 lg:pt-10 text-center lg:text-right mx-auto items-center mt-10 relative overflow-hidden">
       
-      <div className="hidden lg:block w-6/12">
+      <div className="hidden lg:block w-7/12">
         <img src="./assets/images/hero-illustration.png" alt="Hero Illustration" />
       </div>
       
