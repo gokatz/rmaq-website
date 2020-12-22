@@ -20,7 +20,10 @@ export default function Home() {
       </Head>
 
       <main>
-        <div className="hero-section">
+        <div 
+          className="hero-section" 
+          // style={{ backgroundImage: 'url("./assets/images/hero-cover.png")', backgroundSize: 'cover' }}
+        >
           <Header />
           <Hero />
         </div>
