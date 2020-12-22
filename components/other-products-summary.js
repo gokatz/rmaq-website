@@ -17,21 +17,21 @@ const OtherProductsSummary = (props) => {
     ),
     imageUrl: './assets/images/services/tees.png'
   }, {
-    name: 'Advertisement Products',
-      description: (
-        <div>
-          We are solving end-to-end advertising requirements for any business by involving from designing to field work. <br />
+    name: 'Advertising',
+    description: (
+      <div>
+        We are solving end-to-end advertising requirements for any business by involving from designing to field work. <br />
 
-          <ul className="list-disc m-4 text-sm">
-            <li>Name boards, banner boards, light board, 3D name board</li>
-            <li>Stickers printing (Signs, In-door stickers)</li>
-            <li>Business cards, Brochures, Flyers, Letterhead printing, Bill book</li>
-            <li>Mug printing and promotional gift items</li>
-            <li>Acrylic Tumblers</li>
-            <li>ID card</li>
-          </ul>
-        </div>
-      ),
+        <ul className="list-disc m-4 text-sm">
+          <li>Name boards, banner boards, light board, 3D name board</li>
+          <li>Stickers printing (Signs, In-door stickers)</li>
+          <li>Business cards, Brochures, Flyers, Letterhead printing, Bill book</li>
+          <li>Mug printing and promotional gift items</li>
+          <li>Acrylic Tumblers</li>
+          <li>ID card</li>
+        </ul>
+      </div>
+    ),
     imageUrl: './assets/images/services/ad.jpg'
   }, {
     name: 'Engraving and Stencil Works',
