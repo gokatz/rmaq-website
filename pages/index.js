@@ -8,6 +8,7 @@ import AboutUs from '../components/aboutus'
 import ProductPreview from '../components/product-preview'
 import Promises from '../components/promises'
 import ToTop from '../components/to-top'
+import OtherProductsSummary from '../components/other-products-summary'
 
 // import styles from '../styles/Home.module.css'
 
@@ -36,6 +37,8 @@ export default function Home() {
       <ProductPreview />
 
       <Brands />
+
+      <OtherProductsSummary />
 
       <ContactUs />
 
