@@ -35,8 +35,8 @@ const ContactUs = () => {
 
           <ContactCard iconUrl="./assets/icons/phone.svg">
             <div>
-              Mob: <a href={`tel:${secPhone1}`} className="underline"> {secPhone1} </a> <br /><br />
-              Mob: <a href={`tel:${secPhone}`} className="underline"> {secPhone} </a> <br />
+              Mob: <a href={`tel:${secPhone1}`} className="underline"> {secPhone1} </a> <br />
+              Mob: <a href={`tel:${secPhone}`} className="underline"> {secPhone} </a> <br /><br />
               Tel & Fax: <a href={`tel:${primaryPhone}`} className="underline"> {primaryPhone} </a>  <br />
             </div>
           </ContactCard>
