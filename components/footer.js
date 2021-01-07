@@ -8,9 +8,9 @@ const Footer = () => {
               <a href="/products" className="underline"> View our product catalogue </a>
             </div>
             <div>
-              Site Created and maintained by Crosa Apps Ltd.
+              Site Created and maintained by <a className="underline" href="https://bit.ly/crosaapps" target="_blank" rel="noopener noreferrer">Crosa Apps Ltd.</a>
               <br />
-              © 2020 | Rmaq Co.
+              © 2021 | Rmaq Co.
               </div>
           </div>
 
