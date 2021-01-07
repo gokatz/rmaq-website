@@ -55,11 +55,11 @@ const OtherProductsSummary = (props) => {
               let { name, imageUrl, description  } = service;
               
               return (
-                <div class="max-w-sm rounded overflow-hidden shadow-lg m-3" key={name}>
-                  <img class="w-full" src={imageUrl} alt="Sunset in the mountains" style={{ minHeight: '260px' }} />
-                  <div class="px-6 py-4">
-                    <div class="font-bold text-xl mb-2">{name}</div>
-                    <p class="text-gray-700 text-base">
+                <div className="max-w-sm rounded overflow-hidden shadow-lg m-3" key={name}>
+                  <img className="w-full" src={imageUrl} alt="Sunset in the mountains" style={{ minHeight: '260px' }} />
+                  <div className="px-6 py-4">
+                    <div className="font-bold text-xl mb-2">{name}</div>
+                    <p className="text-gray-700 text-base">
                       {description}
                     </p>
                   </div>
