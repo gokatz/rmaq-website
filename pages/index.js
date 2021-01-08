@@ -7,10 +7,16 @@ import AboutUs from '../components/aboutus'
 import ProductPreview from '../components/product-preview'
 import Promises from '../components/promises'
 import OtherProductsSummary from '../components/other-products-summary'
+import { useEffect } from 'react'
 
 // import styles from '../styles/Home.module.css'
 
 export default function Home() {
+
+  useEffect(() => {
+    document.getElementById('body-section').style.display = 'block';
+  }, []);
+
   return (
     <MainLayout>
       <main>
