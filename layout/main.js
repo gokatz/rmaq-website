@@ -10,7 +10,7 @@ const MainLayout = (props) => {
     return product.name;
   });
 
-  let [isHydrated, setHydration] = useState(false);
+  let [isHydrated, setHydration] = useState(true);
 
   useEffect(() => {
     setHydration(true);
