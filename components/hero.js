@@ -6,7 +6,7 @@ const Hero = () => {
     <div className="lg:flex justify-between container px-4 md:px-6 pb-10 lg:pt-10 text-center lg:text-right mx-auto items-center mt-10 relative overflow-hidden">
       
       <div className="hidden lg:block w-7/12">
-        <img src="./assets/images/hero-illustration.png" alt="Hero Illustration" />
+        <img src="./assets/images/hero-illustration.png" alt="Hero Illustration" alt="hero image" />
       </div>
       
       <div className="lg:w-3/5 lg:pl-6" style={{ zIndex: '2' }}>

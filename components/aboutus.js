@@ -8,7 +8,7 @@ const AboutUs = () => {
       <div className="container mx-auto flex flex-col md:flex-row-reverse items-center justify-around">
 
         <div className="w-1/3 md:w-1/5 flex items-center justify-center mb-8 md:mb-0">
-          <img src="./assets/images/logo.png" />
+          <img src="./assets/images/logo.png" alt="company logo" />
         </div>
 
         <div className="w-4/5 md:w-3/5">

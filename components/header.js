@@ -16,7 +16,7 @@ const Header = () => {
         <div className="flex items-center text-xs md:text-xl font-bold"> 
           <Link href="/">
             <div className="flex items-center justify-between cursor-pointer">
-              <img src="./assets/images/logo-bg.png" className="h-10 md:h-20 mr-3 md:mr-6" />
+              <img src="./assets/images/logo-bg.png" className="h-10 md:h-20 mr-3 md:mr-6" alt="company logo" />
               <span className="font-hero tracking-wider"> Rafia Mohammed Al Qarni <br />Trading Est. </span>
             </div>
           </Link>
@@ -27,7 +27,7 @@ const Header = () => {
         </div>
         
         <div className="lg:hidden">
-          <img src="./assets/icons/menu.svg" className="h-5 ml-3 cursor-pointer md:h-6" onClick={() => setMenuState(!canShowMobileMenu)} />
+          <img src="./assets/icons/menu.svg" alt="menu" className="h-5 ml-3 cursor-pointer md:h-6" onClick={() => setMenuState(!canShowMobileMenu)} />
         </div>
       </div>
 

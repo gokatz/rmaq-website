@@ -1,10 +1,8 @@
-import Head from 'next/head'
+import MainLayout from '../layout/main';
 import { useState } from 'react';
-import Footer from '../components/footer'
 import Header from '../components/header'
 import Product from '../components/product';
 import SectionHeader from '../components/section-header';
-import ToTop from '../components/to-top';
 import products from '../data/products';
 
 export default function Home() {
@@ -26,11 +24,7 @@ export default function Home() {
   }
 
   return (
-    <div>
-      <Head>  
-        <title>Product Catalogue | Rafia Mohammed Al Qarni Trading Company</title>
-        <link rel="icon" href="/assets/images/logo-bg.png" />
-      </Head>
+    <MainLayout>
 
       <main>
         <div className="hero-section">
@@ -79,10 +73,7 @@ export default function Home() {
         </div>
       </div>
 
-      <Footer />
-      
-      <ToTop />
-    </div>
+    </MainLayout>
   )
 }
 
