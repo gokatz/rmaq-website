@@ -24,7 +24,8 @@ const MainLayout = (props) => {
         <meta name="description" content="Rafia Mohammed Al Qarni Trading Est. is the famous for all your safety and operational equipment." />
       </Head>
 
-      <div style={{ display: isHydrated ? 'block' : 'none' }}>
+      {!isHydrated &&
+        (
           <div style={{
             display: 'flex',
             flexDirection: 'column',
@@ -50,7 +51,7 @@ const MainLayout = (props) => {
           </div>
         )
       }
-
+      <div style={{ display: isHydrated ? 'block' : 'none' }}>
         { children }
 
         <Footer />
