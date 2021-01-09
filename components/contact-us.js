@@ -45,6 +45,7 @@ const ContactUs = () => {
 
         <div className="flex flex-col md:flex-row">
           <iframe 
+            title="rmaq office location."
             frameBorder="0" 
             className={`flex-shrink-0 flex-grow-0 w-full md:w-1/2 lg:mr-12 border rounded shadow ${styles['google-map-frame']}`}
             src={googleMapFrame} 
