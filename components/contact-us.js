@@ -77,7 +77,7 @@ const ContactCard = (props) => {
   return (
     <div className="flex shadow rounded-md p-8 m-3">
       <div className="mr-6 flex items-center flex-shrink-0">
-        <img src={iconUrl} className="h-10 max-h-full" />
+        <img src={iconUrl} className="h-10 max-h-full" alt="" />
       </div>
       <div className="flex items-center">
         {children}

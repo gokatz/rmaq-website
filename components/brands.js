@@ -29,7 +29,7 @@ const BrandItem = (props) => {
   let { brand } = props;
   return (
     <div className="mx-2 mt-2 mb-10 w-1/4 md:w-2/12">
-      <img src={brand.thumbnail} />
+      <img src={brand.thumbnail} alt={brand.name} />
     </div>
   )
 }

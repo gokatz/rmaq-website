@@ -16,6 +16,7 @@ const Footer = () => {
 
           <img 
             src="./assets/images/logo-full.png" 
+            alt="company logo - full size"
             style={{ width: '300px', maxHeight: '150px' }} 
             className="p-2 bg-white rounded-lg w-full md:w-auto" 
           />
