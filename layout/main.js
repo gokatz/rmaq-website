@@ -25,6 +25,32 @@ const MainLayout = (props) => {
       </Head>
 
       <div style={{ display: isHydrated ? 'block' : 'none' }}>
+          <div style={{
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+            alignItems: 'center',
+            fontSize: '20px',
+            padding: '2rem',
+            textAlign: 'center',
+            height: '100vh',
+          }}>
+            <img 
+              src="./assets/images/logo.png" 
+              alt="company logo" 
+              style={{
+                width: '100px',
+                margin: '2rem'
+              }} 
+            />
+            <div>Rafia Mohammed Al Qarni Trading Company</div>
+            <div style={{ marginTop: '20px', fontSize: '14px' }}>
+              <img src="./assets/icons/initial-spin.svg" alt="loading" style={{ height: '30px' }} />
+            </div>
+          </div>
+        )
+      }
+
         { children }
 
         <Footer />
