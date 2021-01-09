@@ -5,7 +5,7 @@ const OtherProductsSummary = (props) => {
   let services = [{
     name: 'Customized T-shirt Printing & Embroidery',
     description: (
-      <div>
+      <>
         We are supplying high quality customized industrial and casual wears to our customers.<br />
         <ul className="list-disc m-4 text-sm">
           <li>Supplying T-shirt, Shirts, Coverall, Cap, Safety vest, Flag</li>
@@ -13,13 +13,13 @@ const OtherProductsSummary = (props) => {
           <li>Logo designing</li>
           <li>Embroidery works</li>
         </ul>
-      </div>
+      </>
     ),
     imageUrl: './assets/images/services/tees.png'
   }, {
     name: 'Advertising',
     description: (
-      <div>
+      <>
         We are solving end-to-end advertising requirements for any business by involving from designing to field work. <br />
 
         <ul className="list-disc m-4 text-sm">
@@ -30,7 +30,7 @@ const OtherProductsSummary = (props) => {
           <li>Acrylic Tumblers</li>
           <li>ID card</li>
         </ul>
-      </div>
+      </>
     ),
     imageUrl: './assets/images/services/ad.jpg'
   }, {
@@ -59,9 +59,9 @@ const OtherProductsSummary = (props) => {
                   <img className="w-full" src={imageUrl} alt="Sunset in the mountains" style={{ minHeight: '260px' }} />
                   <div className="px-6 py-4">
                     <div className="font-bold text-xl mb-2">{name}</div>
-                    <p className="text-gray-700 text-base">
+                    <div className="text-gray-700 text-base">
                       {description}
-                    </p>
+                    </div>
                   </div>
                   {/* <div class="px-6 pt-4 pb-2">
                     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>

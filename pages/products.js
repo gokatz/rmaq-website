@@ -1,9 +1,10 @@
-import MainLayout from '../layout/main';
+import Head from 'next/head';
 import { useState } from 'react';
 import Header from '../components/header'
 import Product from '../components/product';
 import SectionHeader from '../components/section-header';
 import products from '../data/products';
+import MainLayout from '../layout/main';
 
 export default function Home() {
 
@@ -23,9 +24,15 @@ export default function Home() {
     setProducts(filteredProducts);
   }
 
+  let productKeywords = products.map((product) => {
+    return product.name;
+  });
+
   return (
     <MainLayout>
-
+      <Head>
+        <meta name="keywords" content={`safety equipment, online buy, ${productKeywords.join(', ')}`} />
+      </Head>
       <main>
         <div className="hero-section">
           <Header />
